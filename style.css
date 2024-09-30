@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.left a {
+    margin-right: 15px; 
+    text-decoration: none;
+    color: black;
+    
+}
+
+.right p {
+    margin: 0 10px; 
+    display: inline;
+}
+.box{
+    display:flex;
+    color:red;
+    font-style: italic;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+section .box{
+    display: flex;
+}
+section .box p{
+    padding-left: 10px;
+}
+section .box i{
+    color:blueviolet(231, 22, 56);
+}
+.fa {
+    margin-left: 5px; 
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    background-color: white; 
+    padding: 10px;
+    border-right: 1px solid #ccc; 
+}
+
+.nav-item {
+    text-decoration: none; 
+    color:black; 
+    padding: 10px;
+    position: relative; 
+}
+.nav-item:hover {
+    color:rgb(233, 14, 14); 
+}
+.nav-item::after {
+    font-size: 0.8em; 
+    vertical-align: middle; 
+    margin-left: 5px;
+}
+.img{
+    position: absolute;
+    left:28%;
+    bottom: 300px;
+}
+.sree{
+    position: absolute;
+    right: 400px;
+    top: 20%;
+}
+.janu{
+    font-size: 50px;
+    position: absolute;
+    top: 20%;
+    left: 300px;
+}
+.sum{
+    font-size: 50px;
+    position: absolute;
+    top: 70%;
+    left: 250px;
+}
+.u{
+    position: absolute;
+    top: 85%;
+    left: 630px;
+    
+}
+.u button{
+    background-color: rgba(239, 53, 115);
+    color: aliceblue;
+    border: 2px solid pink;
+    height: 40px;
+    width: 150px;
+    padding: 4px;
+    font-size: bold;
+}
+
+.exit1 p{
+    position: absolute;
+    top: 500px;
+    width:45%;
+    font-display: flex;
+}
+
+.exit2 p{
+    position: absolute;
+    top: 500px;
+    width:40%;
+    font-display: flex;
+    right: 0%;
+}
